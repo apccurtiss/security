@@ -1,0 +1,5 @@
+1.
+Because the HMAC uses the user's password to hash the message, the attacker would also need to know the password to be able to modify the hash in any meaningful way.
+
+2.
+If a trusted program has an "evil" counterpart with the same MD5 hash, like we created in Section 2.2, any system that uses the MD5 as a metric to determine authenticity would have no idea whether it was downloading or running the "right" or "wrong" version of the program in question. This could lead to accidently executing malware on the target system.
